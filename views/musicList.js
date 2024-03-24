@@ -8,7 +8,7 @@ const MusicList = {
      * @param {string} atrist
      */
     const copyMusicName = (name, atrist, index) => {
-      let text = `点歌 ${name}  ${atrist}`;
+      let text = `点歌 ${name} - ${atrist}`;
       if (text.length > 20) {
         text = `点歌 index_${index}`;
       }
